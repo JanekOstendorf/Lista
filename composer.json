@@ -1,0 +1,21 @@
+{
+	"name": "ozzyfant/lista",
+	"description": "Library for managing Minecraft whitelists",
+	"minimum-stability": "stable",
+	"authors": [
+		{
+			"name": "Janek \"ozzyfant\" Ostendorf",
+			"email": "ozzy@ozzyfant.de"
+		}
+	],
+	"require": {
+		"php": ">=5.4"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "3.7.*",
+		"ozzyfant/minecraft-accounts": "v0.1-beta"
+	},
+	"autoload": {
+		"psr-4": {"lista\\": "src/"}
+	}
+}
